@@ -1,0 +1,19 @@
+ul
+{
+ list-style: none;
+}
+.container
+{
+ width: var(--100);
+
+}
+:root
+{
+   --100: 100%;
+   --cl: white;
+}
+
+.tips p
+{
+font-size: 20px;
+}

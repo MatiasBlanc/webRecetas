@@ -1,0 +1,212 @@
+ul
+{
+ list-style: none;
+}
+.container
+{
+ width: var(--100);
+
+}
+:root
+{
+   --100: 100%;
+   --cl: white;
+}
+/* Navigation */
+nav {
+	position: relative;
+	width: var(--100);
+	height: 50px;
+	background-color: #34495e;
+	font-size: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+nav a {
+  font-family: 'Roboto Condensed', sans-serif;
+	line-height: 50px;
+	font-size: 25px;
+	display: inline-block;
+	position: relative;
+	z-index: 1;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	color: var(--cl);;
+	cursor: pointer;
+}
+nav .animation {
+	position: absolute;
+	height: var(--100);
+	top: 0;
+	z-index: 0;
+	transition: all .5s ease 0s;
+	border-radius: 8px;
+}
+a:nth-child(1) {
+	width: 100px;
+}
+a:nth-child(2) {
+	width: 110px;
+}
+a:nth-child(3) {
+	width: 100px;
+}
+a:nth-child(4) {
+	width: 160px;
+}
+a:nth-child(5) {
+	width: 120px;
+}
+a:nth-child(6) {
+	width: 120px;
+}
+nav .start-home, a:nth-child(1):hover~.animation {
+	width: 100px;
+	left: 0;
+	background-color: #1abc9c;
+}
+nav .start-about, a:nth-child(2):hover~.animation {
+	width: 110px;
+	left: 100px;
+	background-color: #e74c3c;
+}
+nav .start-blog, a:nth-child(3):hover~.animation {
+	width: 100px;
+	left: 210px;
+	background-color: #3498db;
+}
+nav .start-portefolio, a:nth-child(4):hover~.animation {
+	width: 160px;
+	left: 305px;
+  margin-right: 10px;
+	background-color: #9b59b6;
+}
+nav .start-contact, a:nth-child(5):hover~.animation {
+	width: 120px;
+	left: 470px;
+	background-color: #e67e22;
+}
+nav .start-contact, a:nth-child(6):hover~.animation {
+	width: 100px;
+	left: 600px;
+	background-color: #11dc39;
+}
+.menu
+{
+  position:fixed;
+  left: 0;
+  top: 0;
+}
+
+
+.titulo-recetas
+{
+	font-family: 'Roboto Condensed', sans-serif;
+  font-size: 23px;
+  text-align: center;
+  margin: 50px;
+  background-color: gray;
+
+}
+.ingredientes-titulo {background-image: linear-gradient(to right, #000046 0%, #1CB5E0  51%, #000046  100%)}
+
+.ingredientes-titulo
+{
+font-family: 'Lato', sans-serif;
+ 	margin-left: 50px;
+	width: 210px;
+	text-decoration: none;
+	padding-top: .1px;
+	padding-bottom: .1px;
+	text-align: center;
+	transition: .7s;
+	background-size: 200% auto;
+	color: white;
+	border-radius: 10px;
+	display: block;
+	text-decoration: none;
+	margin-bottom: 20px;
+	margin-top: 10px;
+	background-position: right center;
+	color: #fff;
+	text-decoration: none;
+	}
+.ingredientes
+{
+font-family: 'Roboto', sans-serif;
+  font-size: 27px;
+  padding: 10px 70px;
+}
+.img
+{
+	background: url("img/berenjenas.jpg");
+	background-repeat: no-repeat;
+	margin-left: 590px;
+	background-size: 540px;
+	width: 400px;
+	background-position:right;
+}
+.procedimiento-titulo { background-image: linear-gradient(to right, #000046 0%, #1CB5E0  51%, #000046  100%)}
+.procedimiento-titulo
+{
+  margin-left: 50px;
+	width: 230px;
+  text-decoration: none;
+	padding-top: .1px;
+	padding-bottom: 0.1px;
+	text-align: center;
+	transition: .7s;
+	background-size: 200% auto;
+	color: white;
+	border-radius: 10px;
+	display: block;
+	text-decoration: none;
+	margin-bottom: 20px;
+	margin-top: 10px;
+	background-position: right center;
+	color: #fff;
+	text-decoration: none;
+	font-family: 'Lato', sans-serif;
+}
+.procedimiento
+{
+	font-family: 'Roboto', sans-serif;
+  font-size: 27px;
+  padding-left: 70px;
+}
+li::selection
+{
+	background: blue;
+	color: white;
+}
+.checkbox
+{
+  margin-bottom: 15px;
+}
+/*
+ol
+{
+list-style:;
+}
+*/
+HTML CSS JSResult
+EDIT ON
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-size: 20vw;
+}
+.tempo
+{
+background:gray;
+padding:20px;
+text-align: center;
+font-size: 15px;
+margin-right: 300px;
+margin-left: 150px;
+border-radius: 10px;
+
+}

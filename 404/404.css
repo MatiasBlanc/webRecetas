@@ -1,0 +1,31 @@
+body {
+    background: rgb(230, 230, 230);
+    overflow: hidden;
+}
+
+.container404 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.titulo404 {
+    letter-spacing: 3px;
+    font-family: 'Lato';
+    font-size: 50px;
+    padding: 80px 100px 0px;
+    text-transform: uppercase;
+}
+
+.texto404 {
+    padding: 100px 0px;
+    font-size: 200px;
+    letter-spacing: 3px;
+    font-family: 'Lato';
+    font-weight: 700;
+}
+
+.img404 {
+    width: 400px;
+    margin: -200px 50px 0px;
+}

@@ -1,0 +1,49 @@
+/* Bienvenida */
+.contenedorBienvenida{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    background: rgba(213,0,255,1);
+background: -moz-linear-gradient(-45deg, rgba(213,0,255,1) 0%, rgba(153,0,255,1) 24%, rgba(121,12,245,1) 42%, rgba(163,67,247,1) 63%, rgba(165,79,240,1) 83%, rgba(132,0,255,1) 100%);
+background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(213,0,255,1)), color-stop(24%, rgba(153,0,255,1)), color-stop(42%, rgba(121,12,245,1)), color-stop(63%, rgba(163,67,247,1)), color-stop(83%, rgba(165,79,240,1)), color-stop(100%, rgba(132,0,255,1)));
+background: -webkit-linear-gradient(-45deg, rgba(213,0,255,1) 0%, rgba(153,0,255,1) 24%, rgba(121,12,245,1) 42%, rgba(163,67,247,1) 63%, rgba(165,79,240,1) 83%, rgba(132,0,255,1) 100%);
+background: -o-linear-gradient(-45deg, rgba(213,0,255,1) 0%, rgba(153,0,255,1) 24%, rgba(121,12,245,1) 42%, rgba(163,67,247,1) 63%, rgba(165,79,240,1) 83%, rgba(132,0,255,1) 100%);
+background: -ms-linear-gradient(-45deg, rgba(213,0,255,1) 0%, rgba(153,0,255,1) 24%, rgba(121,12,245,1) 42%, rgba(163,67,247,1) 63%, rgba(165,79,240,1) 83%, rgba(132,0,255,1) 100%);
+background: linear-gradient(135deg, rgba(213,0,255,1) 0%, rgba(153,0,255,1) 24%, rgba(121,12,245,1) 42%, rgba(163,67,247,1) 63%, rgba(165,79,240,1) 83%, rgba(132,0,255,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d500ff', endColorstr='#8400ff', GradientType=1 );
+}
+
+.mensajeBienvenida{
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding: 140px 0px;
+    line-height: 105px;
+    font-size: 30px;
+    text-align: center;
+    font-family:'Roboto';
+    display: grid;
+}
+
+.imgBienvenida{
+    width: 500px;
+    padding-top: 50px;
+    padding-left: 300px;
+}
+
+/* TOP 3 */
+
+.contenedorTop3 {
+    background: #9B38F7;
+    margin-top: 30px;
+    padding-top: 50px;
+}
+
+.cardsTop3 {
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+}
+
+.imgTop3 {
+    width: 50%;
+}
